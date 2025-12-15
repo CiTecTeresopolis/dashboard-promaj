@@ -37,7 +37,7 @@ export default function Dashboard() {
   }
 
   return (
-    <div className="min-h-screen bg-fixed bg-[url(/images/background2.png)] bg-cover bg-no-repeat **bg-top** bg-black">
+    <div className="min-h-screen bg-fixed bg-[url(/images/background.png)] bg-cover bg-no-repeat **bg-top** bg-black">
       {/* <div className="fixed bg-black opacity-10"></div> */}
       {/* Header */}
       <header className="h-full w-full rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-100 border border-gray-100 shadow-xl">
