@@ -75,13 +75,13 @@ export default function Dashboard() {
               description={`Entre ${data.idade_minima} e ${data.idade_maxima} anos`}
             />
             <KPICard
-              title="Beneficiários Masculinos"
+              title="Público Masculino"
               value={data.distribuicao_sexo.Masculino}
               icon={Users}
               description={`${((data.distribuicao_sexo.Masculino / data.total_participantes) * 100).toFixed(1)}% do total`}
             />
             <KPICard
-              title="Beneficiários Femininos"
+              title="Público Feminino"
               value={data.distribuicao_sexo.Feminino}
               icon={Users}
               description={`${((data.distribuicao_sexo.Feminino / data.total_participantes) * 100).toFixed(1)}% do total`}
