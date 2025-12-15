@@ -52,7 +52,7 @@ export default function Dashboard() {
             Emprego e Capacitação de Jovens
           </p>
           <a 
-            className="font-bold text-foreground mb-4 text-white mt-2"
+            className="font-bold text-foreground mb-4 text-white mt-5"
             href="https://dados.teresopolis.rj.gov.br/dataset/programa-municipal-de-atendimento-ao-jovem-novo-promaj-assistencia/resource/5302b1d2-2235-4610-afd3-123b83a851e1">Dados Abertos Compilados - Clique Aqui 🗎
           </a>
         </div>
