@@ -52,7 +52,7 @@ export function AllocationChart({ data }: AllocationChartProps) {
             />
             <Tooltip
               formatter={value => `${value} beneficiários`}
-              labelFormatter={label => `${label}`}
+              // labelFormatter={label => `${label}`}
               contentStyle={{
                 backgroundColor: "#fff",
                 border: "1px solid #ccc",
