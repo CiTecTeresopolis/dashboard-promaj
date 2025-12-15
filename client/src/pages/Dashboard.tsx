@@ -58,7 +58,7 @@ export default function Dashboard() {
       <main className="container py-8">
         {/* KPI Section */}
         <section className="mb-12">
-          <h2 className="text-2xl font-bold text-foreground mb-6 text-white">
+          <h2 className="text-2xl font-bold text-foreground mb-6 text-white text-center">
             Indicadores Principais
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
@@ -97,7 +97,7 @@ export default function Dashboard() {
 
         {/* Charts Section */}
         <section className="mb-12">
-          <h2 className="text-2xl font-bold text-foreground mb-6 text-white">
+          <h2 className="text-2xl font-bold text-foreground mb-6 text-white text-center">
             Análise Demográfica
           </h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
@@ -108,7 +108,7 @@ export default function Dashboard() {
 
         {/* Education Section */}
         <section className="mb-12">
-          <h2 className="text-2xl font-bold text-foreground mb-6 text-white">
+          <h2 className="text-2xl font-bold text-foreground mb-6 text-white text-center">
             Perfil Educacional
           </h2>
           <div className="grid grid-cols-1 gap-6">
@@ -118,7 +118,7 @@ export default function Dashboard() {
 
         {/* Geographic Section */}
         <section className="mb-12">
-          <h2 className="text-2xl font-bold text-foreground mb-6 text-white">
+          <h2 className="text-2xl font-bold text-foreground mb-6 text-white text-center">
             Cobertura Territorial
           </h2>
           <div className="grid grid-cols-1 gap-6">
@@ -128,7 +128,7 @@ export default function Dashboard() {
 
         {/* Allocation Section */}
         <section className="mb-12">
-          <h2 className="text-2xl font-bold text-foreground mb-6 text-white">
+          <h2 className="text-2xl font-bold text-foreground mb-6 text-white text-center">
             Alocação Profissional
           </h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
