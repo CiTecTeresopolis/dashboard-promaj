@@ -67,7 +67,7 @@ export function SexDistributionChart({ data }: SexDistributionChartProps) {
             </Pie>
 
             <Tooltip
-              formatter={value => [`${value} participantes`]}
+              formatter={value => [`${value} beneficiários`]}
               contentStyle={{ borderRadius: "8px" }}
             />
 

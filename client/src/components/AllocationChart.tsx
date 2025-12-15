@@ -51,7 +51,7 @@ export function AllocationChart({ data }: AllocationChartProps) {
               tick={{ fill: "white" }}
             />
             <Tooltip
-              formatter={value => `${value} participantes`}
+              formatter={value => `${value} beneficiários`}
               labelFormatter={label => `${label}`}
               contentStyle={{
                 backgroundColor: "#fff",

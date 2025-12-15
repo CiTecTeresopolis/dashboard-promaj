@@ -63,7 +63,7 @@ export default function Dashboard() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
             <KPICard
-              title="Total de Participantes"
+              title="Total de Beneficiários"
               value={data.total_participantes}
               icon={Users}
               description="Jovens selecionados no programa"
@@ -75,13 +75,13 @@ export default function Dashboard() {
               description={`Entre ${data.idade_minima} e ${data.idade_maxima} anos`}
             />
             <KPICard
-              title="Participantes Masculinos"
+              title="Beneficiários Masculinos"
               value={data.distribuicao_sexo.Masculino}
               icon={Users}
               description={`${((data.distribuicao_sexo.Masculino / data.total_participantes) * 100).toFixed(1)}% do total`}
             />
             <KPICard
-              title="Participantes Femininos"
+              title="Beneficiários Femininos"
               value={data.distribuicao_sexo.Feminino}
               icon={Users}
               description={`${((data.distribuicao_sexo.Feminino / data.total_participantes) * 100).toFixed(1)}% do total`}
@@ -150,9 +150,9 @@ export default function Dashboard() {
               <p className="text-white">
                 O programa atende {Object.keys(data.distribuicao_cras).length}{" "}
                 CRAS diferentes, com maior concentração em CRAS ALTO (
-                {data.distribuicao_cras["CRAS ALTO"]} participantes), seguido
+                {data.distribuicao_cras["CRAS ALTO"]} beneficiários), seguido
                 por CRAS SÃO PEDRO ({data.distribuicao_cras["CRAS SÃO PEDRO"]}{" "}
-                participantes).
+                beneficiários).
               </p>
             </div>
             <div>
@@ -160,11 +160,11 @@ export default function Dashboard() {
                 Perfil Educacional
               </p>
               <p className="text-white">
-                A maioria dos participantes possui Médio Incompleto (
+                A maioria dos beneficiários possui Médio Incompleto (
                 {data.distribuicao_escolaridade["Médio Incompleto"]}{" "}
-                participantes), seguido por Médio Completo (
+                beneficiários), seguido por Médio Completo (
                 {data.distribuicao_escolaridade["Médio Completo"]}{" "}
-                participantes), indicando oportunidade de capacitação
+                beneficiários), indicando oportunidade de capacitação
                 profissional.
               </p>
             </div>
@@ -173,9 +173,9 @@ export default function Dashboard() {
                 Alocação Profissional
               </p>
               <p className="text-white">
-                A maioria dos participantes está alocada no Estacionamento
+                A maioria dos beneficiários estão alocados no Estacionamento
                 Rotativo ({data.distribuicao_lotacao["Estacionamento Rotativo"]}{" "}
-                participantes), com distribuição complementar em{" "}
+                beneficiários), com distribuição complementar em{" "}
                 {Object.keys(data.distribuicao_lotacao).length - 1} outras áreas
                 da administração pública.
               </p>
@@ -191,7 +191,7 @@ export default function Dashboard() {
                     data.total_participantes) *
                   100
                 ).toFixed(1)}
-                % de participantes masculinos e{" "}
+                % de beneficiários masculinos e{" "}
                 {(
                   (data.distribuicao_sexo.Feminino / data.total_participantes) *
                   100

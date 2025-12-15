@@ -63,7 +63,7 @@ export function SexAllocationChart({ data }: SexAllocationChartProps) {
               tick={{ fill: "white" }}
             />
             <Tooltip
-              formatter={value => `${value} participantes`}
+              formatter={value => `${value} beneficiários`}
               contentStyle={{
                 backgroundColor: "#fff",
                 border: "1px solid #ccc",

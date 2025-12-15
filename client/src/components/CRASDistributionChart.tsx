@@ -41,7 +41,7 @@ export function CRASDistributionChart({ data }: CRASDistributionChartProps) {
             />
             <YAxis tick={{ fill: "white" }} />
             <Tooltip
-              formatter={value => `${value} participantes`}
+              formatter={value => `${value} beneficiários`}
               contentStyle={{
                 backgroundColor: "#fff",
                 border: "1px solid #ccc",
