@@ -18,19 +18,20 @@ export function AllocationChart({ data }: AllocationChartProps) {
     .map(([secretaria, count]) => ({
       secretaria:
         secretaria.length > 25
-          ? secretaria.substring(0, 22) + "..."
-          : secretaria,
+          ? secretaria
+          : // ? secretaria.substring(0, 22) + "..."
+            secretaria,
       fullName: secretaria,
       count,
     }))
     .sort((a, b) => b.count - a.count)
-    .slice(0, 10);
+    .slice(0, 3);
 
   return (
     <Card className="bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-100 border border-gray-100">
       <CardHeader>
         <CardTitle className="text-lg font-semibold text-white">
-          Alocação por Secretaria (Top 10)
+          Alocação por Secretaria (Top 3)
         </CardTitle>
       </CardHeader>
       <CardContent>

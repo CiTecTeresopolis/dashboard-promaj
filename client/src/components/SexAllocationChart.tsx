@@ -28,15 +28,16 @@ export function SexAllocationChart({ data }: SexAllocationChartProps) {
     .map(secretaria => ({
       secretaria:
         secretaria.length > 20
-          ? secretaria.substring(0, 17) + "..."
-          : secretaria,
+          ? secretaria
+          : // ? secretaria.substring(0, 17) + "..."
+            secretaria,
       fullName: secretaria,
       Masculino: data.Masculino?.[secretaria] || 0,
       Feminino: data.Feminino?.[secretaria] || 0,
     }))
     .filter(item => item.Masculino > 0 || item.Feminino > 0)
     .sort((a, b) => b.Masculino + b.Feminino - (a.Masculino + a.Feminino))
-    .slice(0, 8);
+    .slice(0, 3);
 
   return (
     <Card className="bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-100 border border-gray-100">

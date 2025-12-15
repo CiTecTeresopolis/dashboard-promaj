@@ -44,7 +44,7 @@ export default function Dashboard() {
         <div className="container py-6">
           <div className="flex items-center gap-3 mb-2">
             <h1 className="text-3xl font-bold text-foreground text-white">
-              Perfil Beneficiários PROMAJ
+              Perfil Beneficiários PROMAJ (2025)
             </h1>
           </div>
           <p className="text-muted-foreground text-sm text-white">

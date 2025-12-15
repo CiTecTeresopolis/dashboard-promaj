@@ -45,7 +45,9 @@ export function ScholarshipChart({ data }: ScholarshipChartProps) {
               tick={{ fill: "white" }}
             />
             <Tooltip
-              formatter={value => `${value} participantes`}
+              formatter={value =>
+                `${value} ${Number(value) < 2 ? "participante" : "participantes"}`
+              }
               labelFormatter={label => `Escolaridade: ${label}`}
               contentStyle={{
                 backgroundColor: "#fff",
