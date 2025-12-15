@@ -90,7 +90,7 @@ export default function Dashboard() {
               title="Áreas de Atuação"
               value={Object.keys(data.distribuicao_lotacao).length}
               icon={Briefcase}
-              description="Diferentes secretarias"
+              description="Estruturas Públicas"
             />
           </div>
         </section>
@@ -139,7 +139,7 @@ export default function Dashboard() {
 
         {/* Summary Section */}
         <section className="mb-12 p-6 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-100 border border-gray-100">
-          <h2 className="text-xl font-bold text-foreground mb-4 text-white">
+          <h2 className="text-xl font-bold text-foreground mb-4 text-white text-center">
             Resumo Executivo
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-sm text-muted-foreground">
@@ -200,6 +200,9 @@ export default function Dashboard() {
               </p>
             </div>
           </div>
+          <a 
+            className="font-bold text-foreground mb-4 text-white text-center"
+            href="https://dados.teresopolis.rj.gov.br/dataset/programa-municipal-de-atendimento-ao-jovem-novo-promaj-assistencia/resource/5302b1d2-2235-4610-afd3-123b83a851e1">Dados Compilados</a>
         </section>
       </main>
 
