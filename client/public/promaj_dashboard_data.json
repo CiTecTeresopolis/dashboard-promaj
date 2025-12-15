@@ -1,0 +1,99 @@
+{
+    "total_participantes": 109,
+    "distribuicao_sexo": {
+        "Masculino": 64,
+        "Feminino": 45
+    },
+    "idade_media": 18.8,
+    "idade_minima": 16,
+    "idade_maxima": 23,
+    "distribuicao_idade": {
+        "16": 9,
+        "17": 13,
+        "18": 29,
+        "19": 23,
+        "20": 20,
+        "21": 10,
+        "22": 3,
+        "23": 2
+    },
+    "distribuicao_escolaridade": {
+        "Médio Incompleto": 44,
+        "Médio Completo": 34,
+        "EJA - Médio": 17,
+        "Superior Incompleto": 13,
+        "Técnico Incompleto": 1
+    },
+    "distribuicao_cras": {
+        "CRAS ALTO": 24,
+        "CRAS SÃO PEDRO": 21,
+        "CRAS PRATA": 19,
+        "CRAS BARRA": 17,
+        "CRAS MEUDON": 16,
+        "CRAS BARROSO": 9,
+        "CRAS BONSUCESSO": 3
+    },
+    "top_5_bairros": {
+        "Pimentel": 9,
+        "Várzea": 7,
+        "Meudon": 5,
+        "Vale da Revolta": 5,
+        "Quinta Lebrão": 5
+    },
+    "distribuicao_lotacao": {
+        "Estacionamento Rotativo": 65,
+        "Sec. de Assistência Social": 11,
+        "Sec. de Segurança Pública": 5,
+        "Sec. de Trabalho e Emprego": 3,
+        "Sec. de Obras e Serviços Públicos ": 3,
+        "Procuradoria Geral ": 3,
+        "Sec. de Ciência e Tecnologia ": 3,
+        "Sec. de Defesa Civil": 2,
+        "Sec. de Turismo": 2,
+        "Sec. de Esporte": 2,
+        "Programa Operação Trabalho": 2,
+        "Sec. da Mulher": 2,
+        "Sec. de Finanças e Orçamento": 2,
+        "Sec. de Planejamento": 2,
+        "Ouvidoria Geral ": 1,
+        "Cons. de Assistência Social": 1
+    },
+    "sexo_por_lotacao": {
+        "Feminino": {
+            "Cons. de Assistência Social": 1,
+            "Estacionamento Rotativo": 21,
+            "Ouvidoria Geral ": 1,
+            "Procuradoria Geral ": 3,
+            "Programa Operação Trabalho": 1,
+            "Sec. da Mulher": 2,
+            "Sec. de Assistência Social": 7,
+            "Sec. de Ciência e Tecnologia ": 2,
+            "Sec. de Defesa Civil": 1,
+            "Sec. de Esporte": 0,
+            "Sec. de Finanças e Orçamento": 1,
+            "Sec. de Obras e Serviços Públicos ": 0,
+            "Sec. de Planejamento": 0,
+            "Sec. de Segurança Pública": 2,
+            "Sec. de Trabalho e Emprego": 3,
+            "Sec. de Turismo": 0
+        },
+        "Masculino": {
+            "Cons. de Assistência Social": 0,
+            "Estacionamento Rotativo": 44,
+            "Ouvidoria Geral ": 0,
+            "Procuradoria Geral ": 0,
+            "Programa Operação Trabalho": 1,
+            "Sec. da Mulher": 0,
+            "Sec. de Assistência Social": 4,
+            "Sec. de Ciência e Tecnologia ": 1,
+            "Sec. de Defesa Civil": 1,
+            "Sec. de Esporte": 2,
+            "Sec. de Finanças e Orçamento": 1,
+            "Sec. de Obras e Serviços Públicos ": 3,
+            "Sec. de Planejamento": 2,
+            "Sec. de Segurança Pública": 3,
+            "Sec. de Trabalho e Emprego": 0,
+            "Sec. de Turismo": 2
+        }
+    }
+}
