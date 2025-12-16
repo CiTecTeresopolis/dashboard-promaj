@@ -152,6 +152,27 @@ export default function Dashboard() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-sm text-muted-foreground">
             <div>
               <p className="font-semibold text-foreground mb-2 text-white">
+                Perfil Educacional
+              </p>
+              <p className="text-white">
+                A maioria dos beneficiários apresenta Ensino Médio Incompleto
+                (44), seguido por Ensino Médio Completo (34). Esse cenário
+                evidencia uma lacuna significativa na formação educacional, que
+                pode limitar o acesso a melhores oportunidades de trabalho e
+                progressão profissional. Diante disso, torna-se essencial
+                estimular a continuidade dos estudos, seja por meio da conclusão
+                do Ensino Médio, seja pela entrada em cursos técnicos e
+                superiores. O incentivo à educação formal não apenas amplia as
+                perspectivas de empregabilidade, mas também fortalece a
+                autonomia e a capacidade crítica dos beneficiários. Além disso,
+                políticas e programas de apoio ao ingresso no ensino superior —
+                como bolsas de estudo, parcerias com universidades e cursos de
+                qualificação — podem ser estratégicos para transformar esse
+                perfil educacional em um diferencial competitivo
+              </p>
+            </div>
+            {/* <div>
+              <p className="font-semibold text-foreground mb-2 text-white">
                 Distribuição Geográfica
               </p>
               <p className="text-white">
@@ -161,20 +182,8 @@ export default function Dashboard() {
                 por CRAS SÃO PEDRO ({data.distribuicao_cras["CRAS SÃO PEDRO"]}{" "}
                 beneficiários).
               </p>
-            </div>
-            <div>
-              <p className="font-semibold text-foreground mb-2 text-white">
-                Perfil Educacional
-              </p>
-              <p className="text-white">
-                A maioria dos beneficiários possui Médio Incompleto (
-                {data.distribuicao_escolaridade["Médio Incompleto"]}{" "}
-                beneficiários), seguido por Médio Completo (
-                {data.distribuicao_escolaridade["Médio Completo"]}{" "}
-                beneficiários), indicando oportunidade de capacitação
-                profissional.
-              </p>
-            </div>
+            </div> */}
+
             <div>
               <p className="font-semibold text-foreground mb-2 text-white">
                 Alocação Profissional
