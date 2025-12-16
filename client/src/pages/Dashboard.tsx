@@ -149,7 +149,7 @@ export default function Dashboard() {
           <h2 className="text-xl font-bold text-foreground mb-4 text-white text-center">
             Resumo Executivo
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-sm text-muted-foreground">
+          <div className="grid grid-cols-1  gap-6 text-sm text-muted-foreground">
             <div>
               <p className="font-semibold text-foreground mb-2 text-white">
                 Perfil Educacional
@@ -171,7 +171,7 @@ export default function Dashboard() {
                 perfil educacional em um diferencial competitivo
               </p>
             </div>
-            {/* <div>
+            <div>
               <p className="font-semibold text-foreground mb-2 text-white">
                 Distribuição Geográfica
               </p>
@@ -182,7 +182,7 @@ export default function Dashboard() {
                 por CRAS SÃO PEDRO ({data.distribuicao_cras["CRAS SÃO PEDRO"]}{" "}
                 beneficiários).
               </p>
-            </div> */}
+            </div>
 
             <div>
               <p className="font-semibold text-foreground mb-2 text-white">
