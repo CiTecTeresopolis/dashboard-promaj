@@ -12,6 +12,7 @@ export interface PromajData {
   top_5_bairros: Record<string, number>;
   distribuicao_lotacao: Record<string, number>;
   sexo_por_lotacao: Record<string, Record<string, number>>;
+  sexo_por_idade: Record<string, Record<string, number>>;
 }
 
 export function usePromajData() {
